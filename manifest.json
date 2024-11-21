@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Text Extractor",
+  "version": "1.0",
+  "description": "Extracts readable text from webpages and shows the first paragraph in a popup",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
